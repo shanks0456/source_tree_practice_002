@@ -8,6 +8,19 @@
 
 	$result = add(1,1);
 	echo $result;
-	
+
+	class Robot {
+		private $name;
+
+		function setName($name) {
+			$this->name = $name;
+		}
+		function getName() {
+			return $this->name;
+		}
+	}
+
+	$robot = new Robot();
+	$robot->setName('ドラえもん');
  ?>
  Initial commit
