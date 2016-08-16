@@ -3,9 +3,11 @@
 
 	function add($num1, $num2) {
 		$result = $num1 + $num2;
-		echo $result;
+		return $result;
 	}
 
-	add(1,1);
+	$result = add(1,1);
+	echo $result;
+	
  ?>
  Initial commit
